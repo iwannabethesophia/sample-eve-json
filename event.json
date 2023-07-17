@@ -1,0 +1,5131 @@
+{
+  "timestamp": "2010-01-01T07:01:09.068693+0700",
+  "flow_id": 1302185949106188,
+  "pcap_cnt": 167,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1082,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.655969+0700",
+  "flow_id": 1674626638327008,
+  "pcap_cnt": 4,
+  "event_type": "dhcp",
+  "src_ip": "10.0.2.2",
+  "src_port": 67,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dhcp": {
+    "type": "reply",
+    "id": 237297490,
+    "client_mac": "08:00:27:91:fd:44",
+    "assigned_ip": "10.0.2.15",
+    "dhcp_type": "ack"
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.089612+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 29,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.942836+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 157,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1081,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/?click=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "length": 20
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:59.631215+0700",
+  "flow_id": 1011413186926342,
+  "pcap_cnt": 105,
+  "event_type": "dhcp",
+  "src_ip": "10.0.3.2",
+  "src_port": 67,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dhcp": {
+    "type": "reply",
+    "id": 2613969545,
+    "client_mac": "08:00:27:ba:0b:03",
+    "assigned_ip": "10.0.3.15",
+    "dhcp_type": "ack"
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:54.762776+0700",
+  "flow_id": 732822251270169,
+  "pcap_cnt": 379,
+  "event_type": "dhcp",
+  "src_ip": "10.0.4.2",
+  "src_port": 67,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dhcp": {
+    "type": "reply",
+    "id": 344474172,
+    "client_mac": "08:00:27:a1:5f:bf",
+    "assigned_ip": "10.0.4.15",
+    "dhcp_type": "ack"
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.188552+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 33,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1063,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/login.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 3005,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.267366+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 35,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/sslstyles.css",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:12.054145+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 214,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 36005,
+    "rrname": "www.honeynet.org",
+    "rrtype": "A",
+    "tx_id": 0,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:13.046575+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 216,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 36005,
+    "rrname": "www.honeynet.org",
+    "rrtype": "A",
+    "tx_id": 1,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:15.085336+0700",
+  "flow_id": 594437126665310,
+  "pcap_cnt": 268,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1086,
+  "dest_ip": "74.125.77.101",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1731245256&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=2130591288&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265128952.1265310286.5%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:23.957083+0700",
+  "flow_id": 1302185949106188,
+  "pcap_cnt": 280,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1082,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminatr_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 358,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.018337+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 467,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/?click=84c090bd86",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "length": 20
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.308123+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 42,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.308237+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 44,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1063,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/dot.jpg",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 347,
+    "tx_id": 2
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.589519+0700",
+  "flow_id": 1898185603841260,
+  "pcap_cnt": 65,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1066,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.751806+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 425,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/store_logo.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:09.465200+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 175,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1081,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4483
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.792181+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 431,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/header_account.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.590308+0700",
+  "flow_id": 1893901555420740,
+  "pcap_cnt": 66,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1065,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.432548+0700",
+  "flow_id": 1761982908936201,
+  "pcap_cnt": 57,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1064,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/?click=3feb5a6b2f",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "length": 20
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.839083+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 439,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/header_checkout.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:45.276973+0700",
+  "flow_id": 1898185603841260,
+  "pcap_cnt": 84,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1066,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminator_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 359,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:10.058812+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 179,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4483
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/show.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 10845,
+    "tx_id": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.873122+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 446,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/infobox/corner_right_left.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.494444+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 61,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/rslogo.jpg",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:45.278240+0700",
+  "flow_id": 1893901555420740,
+  "pcap_cnt": 86,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1065,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/images/sslstyles.css",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminatr_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 358,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.895931+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 453,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/infobox/arrow_right.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:13.349170+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 217,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 36005,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.honeynet.org",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.honeynet.org",
+        "rrtype": "A",
+        "ttl": 3600,
+        "rdata": "64.236.114.1"
+      }
+    ],
+    "grouped": {
+      "A": [
+        "64.236.114.1"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.511897+0700",
+  "flow_id": 1761982908936201,
+  "pcap_cnt": 64,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1064,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1666
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:14.750802+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 259,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 1446,
+    "rrname": "www.google-analytics.com",
+    "rrtype": "A",
+    "tx_id": 3,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.921687+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 457,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 5,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/includes/languages/english/images/buttons/button_quick_find.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:10.078014+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 193,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1081,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:14.914514+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 260,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 1446,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.google-analytics.com",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.google-analytics.com",
+        "rrtype": "CNAME",
+        "ttl": 67890,
+        "rdata": "www-google-analytics.l.google.com"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 140,
+        "rdata": "74.125.77.101"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 140,
+        "rdata": "74.125.77.100"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 140,
+        "rdata": "74.125.77.102"
+      }
+    ],
+    "grouped": {
+      "CNAME": [
+        "www-google-analytics.l.google.com"
+      ],
+      "A": [
+        "74.125.77.101",
+        "74.125.77.100",
+        "74.125.77.102"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.097578+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 292,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 30120,
+    "rrname": "www.google.com",
+    "rrtype": "A",
+    "tx_id": 5,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.986937+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 464,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 6,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/table_background_default.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.100045+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 293,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 30120,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.google.com",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.google.com",
+        "rrtype": "CNAME",
+        "ttl": 154279,
+        "rdata": "www.l.google.com"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.106"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.105"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.147"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.103"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.104"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.99"
+      }
+    ],
+    "grouped": {
+      "A": [
+        "209.85.227.106",
+        "209.85.227.105",
+        "209.85.227.147",
+        "209.85.227.103",
+        "209.85.227.104",
+        "209.85.227.99"
+      ],
+      "CNAME": [
+        "www.l.google.com"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.411557+0700",
+  "flow_id": 1877778015703340,
+  "pcap_cnt": 307,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1088,
+  "dest_ip": "209.85.227.106",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.google.com",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://www.google.fr/",
+    "length": 218
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.266611+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 300,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 57512,
+    "rrname": "www.google.fr",
+    "rrtype": "A",
+    "tx_id": 7,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.089459+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 472,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 7,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/infobox/corner_right.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:38.790171+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 70,
+  "event_type": "http",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/favicon.ico",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 272
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.268625+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 301,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 57512,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.google.fr",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.google.fr",
+        "rrtype": "CNAME",
+        "ttl": 240679,
+        "rdata": "www.google.com"
+      },
+      {
+        "rrname": "www.google.com",
+        "rrtype": "CNAME",
+        "ttl": 154279,
+        "rdata": "www.l.google.com"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.99"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.106"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.105"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.147"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.103"
+      },
+      {
+        "rrname": "www.l.google.com",
+        "rrtype": "A",
+        "ttl": 84,
+        "rdata": "209.85.227.104"
+      }
+    ],
+    "grouped": {
+      "CNAME": [
+        "www.google.com",
+        "www.l.google.com"
+      ],
+      "A": [
+        "209.85.227.99",
+        "209.85.227.106",
+        "209.85.227.105",
+        "209.85.227.147",
+        "209.85.227.103",
+        "209.85.227.104"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:10.158994+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 195,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "video.exe",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 12288,
+    "tx_id": 2
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.747158+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 317,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 4521,
+    "rrname": "clients1.google.fr",
+    "rrtype": "A",
+    "tx_id": 9,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:45.276939+0700",
+  "flow_id": 1435011287496455,
+  "pcap_cnt": 83,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1063,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/favicon.ico",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 272
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/favicon.ico",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 337,
+    "tx_id": 4
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.116408+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 478,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 8,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/includes/languages/german/images/icon.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.912943+0700",
+  "flow_id": 232553973967770,
+  "pcap_cnt": 321,
+  "event_type": "dns",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 4521,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "clients1.google.fr",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "clients1.google.fr",
+        "rrtype": "CNAME",
+        "ttl": 3089,
+        "rdata": "clients.l.google.com"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.100"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.139"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.113"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.101"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.102"
+      },
+      {
+        "rrname": "clients.l.google.com",
+        "rrtype": "A",
+        "ttl": 277,
+        "rdata": "209.85.227.138"
+      }
+    ],
+    "grouped": {
+      "A": [
+        "209.85.227.100",
+        "209.85.227.139",
+        "209.85.227.113",
+        "209.85.227.101",
+        "209.85.227.102",
+        "209.85.227.138"
+      ],
+      "CNAME": [
+        "clients.l.google.com"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:45.278492+0700",
+  "flow_id": 1761982908936201,
+  "pcap_cnt": 88,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 1064,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1666
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/show.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 3513,
+    "tx_id": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:29.915964+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 342,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.284021+0700",
+  "flow_id": 1786586191359506,
+  "pcap_cnt": 481,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 9,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/banners/oscommerce.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:10.174625+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 209,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1081,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:27.232866+0700",
+  "flow_id": 1966900018672230,
+  "pcap_cnt": 330,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1090,
+  "dest_ip": "209.85.227.100",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "clients1.google.fr",
+    "url": "/generate_204",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://www.google.fr/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 204,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:29.935520+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 344,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1091,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/login.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 3005,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:25.181924+0700",
+  "flow_id": 1369271053356547,
+  "pcap_cnt": 286,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1081,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "video.exe",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 12288,
+    "tx_id": 3
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.560731+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 132,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.006587+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 349,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/sslstyles.css",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.626634+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 134,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/login.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 1508
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/login.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 3005,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.077088+0700",
+  "flow_id": 572878251164775,
+  "pcap_cnt": 358,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1092,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/?click=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://sploitme.com.cn/fg/show.php?s=3feb5a6b2f",
+    "length": 20
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:17.209904+0700",
+  "flow_id": 1326186424797998,
+  "pcap_cnt": 690,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1118,
+  "dest_ip": "74.125.77.102",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1298421081&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=2068504592&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265310375.1265310467.7%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.031896+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 355,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.760202+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 141,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/sslstyles.css",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/css",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4079
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.319846+0700",
+  "flow_id": 572878251164775,
+  "pcap_cnt": 368,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1092,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 196
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1673477360271155,
+  "event_type": "flow",
+  "src_ip": "0.0.0.0",
+  "src_port": 68,
+  "dest_ip": "255.255.255.255",
+  "dest_port": 67,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1420,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:00:29.651780+0700",
+    "end": "2010-01-01T07:00:59.631099+0700",
+    "age": 30,
+    "state": "new",
+    "reason": "timeout",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.032036+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 356,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1091,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/dot.jpg",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 347,
+    "tx_id": 2
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.784230+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 145,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/sslstyles.css",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/css",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4079
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/sslstyles.css",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 4079,
+    "tx_id": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.821732+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 148,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/rslogo.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.078312+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 360,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/rslogo.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 670353388551987,
+  "event_type": "flow",
+  "src_ip": "0.0.0.0",
+  "src_port": 68,
+  "dest_ip": "255.255.255.255",
+  "dest_port": 67,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 710,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:01:54.745902+0700",
+    "end": "2010-01-01T07:01:54.762625+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "timeout",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.945599+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 161,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:08.945701+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 162,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/dot.jpg",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 276
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/dot.jpg",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 347,
+    "tx_id": 3
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.105837+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 363,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.105999+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 364,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1091,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminatr_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminatr_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 358,
+    "tx_id": 4
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:09.080441+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 168,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:08.065289+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 499,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=84c090bd86",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 13766
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:30.225169+0700",
+  "flow_id": 383084158333776,
+  "pcap_cnt": 367,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 5,
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:15.062295+0700",
+  "flow_id": 2228682520552368,
+  "pcap_cnt": 678,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1117,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:08.947031+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 503,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1108,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=84c090bd86",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 13766
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/show.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 40653,
+    "tx_id": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:08.961378+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 517,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.674595+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 416,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 2725
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:09.013791+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 519,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1108,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "video.exe",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 12288,
+    "tx_id": 2
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.674752+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 417,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.51",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1106,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 2725
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/catalog/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 19068,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.786483+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 428,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/stylesheet.css",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:14.491997+0700",
+  "flow_id": 398187374465957,
+  "pcap_cnt": 255,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1085,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:09.040107+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 533,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:15.062396+0700",
+  "flow_id": 2228682520552368,
+  "pcap_cnt": 679,
+  "event_type": "fileinfo",
+  "src_ip": "64.236.114.1",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1117,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 27700,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:09.979289+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 536,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1108,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=1",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "video.exe",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 12288,
+    "tx_id": 3
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.817060+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 434,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 2,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/header_cart.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:10.090291+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 538,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/directshow.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/jpeg",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 63
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.837597+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 437,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 3,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/infobox/corner_left.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.894966+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 451,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 4,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/pixel_trans.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:14.502128+0700",
+  "flow_id": 398187374465957,
+  "pcap_cnt": 258,
+  "event_type": "fileinfo",
+  "src_ip": "64.236.114.1",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1085,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 27700,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:23.969087+0700",
+  "flow_id": 1204225336813855,
+  "pcap_cnt": 282,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1080,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminator_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 359,
+    "tx_id": 4
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:06.928654+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 460,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 5,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/libemu.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.018382+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 468,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 6,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/images/phoneyc.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:11.629447+0700",
+  "flow_id": 751807636468189,
+  "pcap_cnt": 579,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1111,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.107386+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 475,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 7,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/includes/languages/english/images/icon.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.611272+0700",
+  "flow_id": 1725091355134545,
+  "pcap_cnt": 316,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1089,
+  "dest_ip": "209.85.227.99",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.google.fr",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4585
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:26.827727+0700",
+  "flow_id": 1725091355134545,
+  "pcap_cnt": 320,
+  "event_type": "fileinfo",
+  "src_ip": "209.85.227.99",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1089,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "www.google.fr",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 4585
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 10680,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:07.284543+0700",
+  "flow_id": 1924913459456102,
+  "pcap_cnt": 482,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 8,
+  "http": {
+    "hostname": "shop.honeynet.sg",
+    "url": "/catalog/includes/languages/espanol/images/icon.gif",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_refer": "http://shop.honeynet.sg/catalog/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 304,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:01:27.114269+0700",
+  "flow_id": 1725091355134545,
+  "pcap_cnt": 329,
+  "event_type": "http",
+  "src_ip": "10.0.3.15",
+  "src_port": 1089,
+  "dest_ip": "209.85.227.99",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 1,
+  "http": {
+    "hostname": "www.google.fr",
+    "url": "/csi?v=3&s=webhp&action=&e=17259,22766,23388,23456,23599&ei=mHdoS-C7Ms2a-Abs68j-CA&expi=17259,22766,23388,23456,23599&rt=prt.195,ol.255,xjses.345,xjsee.375,xjsls.375,xjs.481",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://www.google.fr/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 204,
+    "length": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:59.973544+0700",
+  "flow_id": 2205367086200533,
+  "pcap_cnt": 701,
+  "event_type": "dhcp",
+  "src_ip": "10.0.5.2",
+  "src_port": 67,
+  "dest_ip": "10.0.5.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dhcp": {
+    "type": "reply",
+    "id": 2620218045,
+    "client_mac": "08:00:27:cd:3d:55",
+    "assigned_ip": "10.0.5.15",
+    "dhcp_type": "ack"
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:11.845359+0700",
+  "flow_id": 751807636468189,
+  "pcap_cnt": 582,
+  "event_type": "fileinfo",
+  "src_ip": "64.236.114.1",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1111,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "www.honeynet.org",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 27711
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 27700,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:10.627308+0700",
+  "flow_id": 723943921809112,
+  "pcap_cnt": 539,
+  "event_type": "dns",
+  "src_ip": "10.0.4.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 43689,
+    "rrname": "www.honeynet.org",
+    "rrtype": "A",
+    "tx_id": 0,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:24.986884+0700",
+  "flow_id": 1742331282322477,
+  "pcap_cnt": 612,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1108,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/directshow.php",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/jpeg",
+    "http_refer": "http://sploitme.com.cn/fg/show.php?s=84c090bd86",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 63
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/directshow.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 63,
+    "tx_id": 4
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:10.629748+0700",
+  "flow_id": 723943921809112,
+  "pcap_cnt": 540,
+  "event_type": "dns",
+  "src_ip": "10.0.4.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 43689,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.honeynet.org",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.honeynet.org",
+        "rrtype": "A",
+        "ttl": 3542,
+        "rdata": "64.236.114.1"
+      }
+    ],
+    "grouped": {
+      "A": [
+        "64.236.114.1"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:16.435387+0700",
+  "flow_id": 723943921809112,
+  "pcap_cnt": 587,
+  "event_type": "dns",
+  "src_ip": "10.0.4.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "type": "query",
+    "id": 52650,
+    "rrname": "www.google-analytics.com",
+    "rrtype": "A",
+    "tx_id": 2,
+    "opcode": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:16.439617+0700",
+  "flow_id": 723943921809112,
+  "pcap_cnt": 588,
+  "event_type": "dns",
+  "src_ip": "10.0.4.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "pkt_src": "wire/pcap",
+  "dns": {
+    "version": 2,
+    "type": "answer",
+    "id": 52650,
+    "flags": "8180",
+    "qr": true,
+    "rd": true,
+    "ra": true,
+    "opcode": 0,
+    "rrname": "www.google-analytics.com",
+    "rrtype": "A",
+    "rcode": "NOERROR",
+    "answers": [
+      {
+        "rrname": "www.google-analytics.com",
+        "rrtype": "CNAME",
+        "ttl": 67829,
+        "rdata": "www-google-analytics.l.google.com"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 79,
+        "rdata": "74.125.77.102"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 79,
+        "rdata": "74.125.77.100"
+      },
+      {
+        "rrname": "www-google-analytics.l.google.com",
+        "rrtype": "A",
+        "ttl": 79,
+        "rdata": "74.125.77.101"
+      }
+    ],
+    "grouped": {
+      "A": [
+        "74.125.77.102",
+        "74.125.77.100",
+        "74.125.77.101"
+      ],
+      "CNAME": [
+        "www-google-analytics.l.google.com"
+      ]
+    }
+  }
+}
+{
+  "timestamp": "2010-01-01T07:02:16.599796+0700",
+  "flow_id": 206785414435426,
+  "pcap_cnt": 596,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1112,
+  "dest_ip": "74.125.77.102",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1265451123&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=1706076767&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265310286.1265310375.6%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:06.951787+0700",
+  "flow_id": 736342798181239,
+  "pcap_cnt": 638,
+  "event_type": "http",
+  "src_ip": "10.0.4.15",
+  "src_port": 1114,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=3",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1805120274339602,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 138,
+  "dest_ip": "10.0.4.255",
+  "dest_port": 138,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 13,
+    "pkts_toclient": 0,
+    "bytes_toserver": 3072,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:02:06.551359+0700",
+    "end": "2010-01-01T07:02:45.201267+0700",
+    "age": 39,
+    "state": "new",
+    "reason": "timeout",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:03:21.946200+0700",
+  "flow_id": 736342798181239,
+  "pcap_cnt": 691,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1114,
+  "proto": "TCP",
+  "pkt_src": "wire/pcap",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/load.php?e=3",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "application/octet-stream",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 12288
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "video.exe",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 12288,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 572878251164775,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1092,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php?s=3feb5a6b2f",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 196
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/show.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 227,
+    "tx_id": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 572878251164775,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1092,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 1067,
+    "bytes_toclient": 1340,
+    "start": "2010-01-01T07:01:30.002311+0700",
+    "end": "2010-01-01T07:01:37.350047+0700",
+    "age": 7,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 206785414435426,
+  "event_type": "fileinfo",
+  "src_ip": "74.125.77.102",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1112,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1265451123&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=1706076767&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265310286.1265310375.6%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/__utm.gif",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 35,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 206785414435426,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1112,
+  "dest_ip": "74.125.77.102",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 4,
+    "bytes_toserver": 965,
+    "bytes_toclient": 569,
+    "start": "2010-01-01T07:02:16.441361+0700",
+    "end": "2010-01-01T07:03:16.683794+0700",
+    "age": 60,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 736342798181239,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1114,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 11,
+    "pkts_toclient": 12,
+    "bytes_toserver": 850,
+    "bytes_toclient": 13376,
+    "start": "2010-01-01T07:03:06.892339+0700",
+    "end": "2010-01-01T07:03:21.947022+0700",
+    "age": 15,
+    "state": "established",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1a",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "fin_wait2",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 383084158333776,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.50",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1091,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "rapidshare.com.eyu32.ru",
+    "url": "/images/images/terminator_back.png",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_refer": "http://rapidshare.com.eyu32.ru/login.php",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 404,
+    "length": 285
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/images/images/terminator_back.png",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 359,
+    "tx_id": 5
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 383084158333776,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1091,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 11,
+    "pkts_toclient": 14,
+    "bytes_toserver": 2548,
+    "bytes_toclient": 4790,
+    "start": "2010-01-01T07:01:29.810089+0700",
+    "end": "2010-01-01T07:01:37.339907+0700",
+    "age": 8,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1945209946728683,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1087,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 3,
+    "bytes_toserver": 62,
+    "bytes_toclient": 174,
+    "start": "2010-01-01T07:01:18.977192+0700",
+    "end": "2010-01-01T07:01:39.863268+0700",
+    "age": 21,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "12",
+    "tcp_flags_ts": "12",
+    "tcp_flags_tc": "12",
+    "syn": true,
+    "ack": true,
+    "state": "syn_recv",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1552826274777261,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1119,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 2,
+    "bytes_toserver": 62,
+    "bytes_toclient": 116,
+    "start": "2010-01-01T07:03:25.754761+0700",
+    "end": "2010-01-01T07:03:32.625339+0700",
+    "age": 7,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "12",
+    "tcp_flags_ts": "12",
+    "tcp_flags_tc": "12",
+    "syn": true,
+    "ack": true,
+    "state": "syn_recv",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1725091355134545,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1089,
+  "dest_ip": "209.85.227.99",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 9,
+    "pkts_toclient": 9,
+    "bytes_toserver": 1694,
+    "bytes_toclient": 5535,
+    "start": "2010-01-01T07:01:26.270582+0700",
+    "end": "2010-01-01T07:01:37.330943+0700",
+    "age": 11,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1326186424797998,
+  "event_type": "fileinfo",
+  "src_ip": "74.125.77.102",
+  "src_port": 80,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 1118,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1298421081&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=2068504592&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265310375.1265310467.7%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/__utm.gif",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 35,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1326186424797998,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1118,
+  "dest_ip": "74.125.77.102",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 4,
+    "bytes_toserver": 965,
+    "bytes_toclient": 569,
+    "start": "2010-01-01T07:03:16.046632+0700",
+    "end": "2010-01-01T07:03:27.611806+0700",
+    "age": 11,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1347288899359317,
+  "event_type": "fileinfo",
+  "src_ip": "192.168.56.52",
+  "src_port": 80,
+  "dest_ip": "10.0.5.15",
+  "dest_port": 1135,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php",
+    "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.0",
+    "status": 200,
+    "length": 3500
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/fg/show.php",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 3500,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1347288899359317,
+  "event_type": "http",
+  "src_ip": "10.0.5.15",
+  "src_port": 1135,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "tx_id": 0,
+  "http": {
+    "hostname": "sploitme.com.cn",
+    "url": "/fg/show.php",
+    "http_user_agent": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.0",
+    "status": 200,
+    "length": 3500
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1347288899359317,
+  "event_type": "flow",
+  "src_ip": "10.0.5.15",
+  "src_port": 1135,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 5,
+    "bytes_toserver": 473,
+    "bytes_toclient": 4146,
+    "start": "2010-01-01T07:04:04.182618+0700",
+    "end": "2010-01-01T07:04:04.263626+0700",
+    "age": 0,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1877778015703340,
+  "event_type": "fileinfo",
+  "src_ip": "209.85.227.106",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1088,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "www.google.com",
+    "url": "/",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "text/html",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 302,
+    "redirect": "http://www.google.fr/",
+    "length": 218
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 218,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1877778015703340,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1088,
+  "dest_ip": "209.85.227.106",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 3,
+    "bytes_toserver": 819,
+    "bytes_toclient": 595,
+    "start": "2010-01-01T07:01:26.109524+0700",
+    "end": "2010-01-01T07:01:37.332619+0700",
+    "age": 11,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 594437126665310,
+  "event_type": "fileinfo",
+  "src_ip": "74.125.77.101",
+  "src_port": 80,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 1086,
+  "proto": "TCP",
+  "pkt_src": "stream (flow timeout)",
+  "http": {
+    "hostname": "www.google-analytics.com",
+    "url": "/__utm.gif?utmwv=4.6.5&utmn=1731245256&utmhn=www.honeynet.org&utmcs=utf-8&utmsr=1088x729&utmsc=32-bit&utmul=en-us&utmje=1&utmfl=6.0%20r79&utmdt=Honeynet%20Project%20Blog%20%7C%20The%20Honeynet%20Project&utmhid=2130591288&utmr=-&utmp=%2F&utmac=UA-372404-7&utmcc=__utma%3D121888786.1305690527.1264085162.1265128952.1265310286.5%3B%2B__utmz%3D121888786.1264085162.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B",
+    "http_user_agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)",
+    "http_content_type": "image/gif",
+    "http_refer": "http://www.honeynet.org/",
+    "http_method": "GET",
+    "protocol": "HTTP/1.1",
+    "status": 200,
+    "length": 35
+  },
+  "app_proto": "http",
+  "fileinfo": {
+    "filename": "/__utm.gif",
+    "gaps": false,
+    "state": "CLOSED",
+    "stored": false,
+    "size": 35,
+    "tx_id": 0
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 594437126665310,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1086,
+  "dest_ip": "74.125.77.101",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 4,
+    "bytes_toserver": 965,
+    "bytes_toclient": 569,
+    "start": "2010-01-01T07:01:14.924835+0700",
+    "end": "2010-01-01T07:01:37.329509+0700",
+    "age": 23,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1966900018672230,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1090,
+  "dest_ip": "209.85.227.100",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 3,
+    "bytes_toserver": 783,
+    "bytes_toclient": 350,
+    "start": "2010-01-01T07:01:26.916706+0700",
+    "end": "2010-01-01T07:01:37.337706+0700",
+    "age": 11,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1e",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1a",
+    "syn": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 729109873758077,
+  "event_type": "flow",
+  "src_ip": "10.0.5.15",
+  "src_port": 137,
+  "dest_ip": "10.0.5.255",
+  "dest_port": 137,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 16,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1760,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:04:02.169759+0700",
+    "end": "2010-01-01T07:04:10.451923+0700",
+    "age": 8,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 497246276622284,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 138,
+  "dest_ip": "10.0.2.255",
+  "dest_port": 138,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 9,
+    "pkts_toclient": 0,
+    "bytes_toserver": 2115,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:00:41.115774+0700",
+    "end": "2010-01-01T07:00:50.133872+0700",
+    "age": 9,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1204225336813855,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1080,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 14,
+    "pkts_toclient": 16,
+    "bytes_toserver": 2441,
+    "bytes_toclient": 8493,
+    "start": "2010-01-01T07:01:08.542524+0700",
+    "end": "2010-01-01T07:01:25.202592+0700",
+    "age": 17,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1f",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1761982908936201,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 1064,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 8,
+    "bytes_toserver": 1291,
+    "bytes_toclient": 2973,
+    "start": "2010-01-01T07:00:38.279171+0700",
+    "end": "2010-01-01T07:00:45.284422+0700",
+    "age": 7,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1435011287496455,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 1063,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 12,
+    "pkts_toclient": 14,
+    "bytes_toserver": 2869,
+    "bytes_toclient": 4189,
+    "start": "2010-01-01T07:00:37.989474+0700",
+    "end": "2010-01-01T07:00:45.281648+0700",
+    "age": 8,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 2031441409556275,
+  "event_type": "flow",
+  "src_ip": "0.0.0.0",
+  "src_port": 68,
+  "dest_ip": "255.255.255.255",
+  "dest_port": 67,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 710,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:03:59.931733+0700",
+    "end": "2010-01-01T07:03:59.973428+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1921807075658420,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 137,
+  "dest_ip": "10.0.3.255",
+  "dest_port": 137,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 24,
+    "pkts_toclient": 0,
+    "bytes_toserver": 2640,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:01:02.250847+0700",
+    "end": "2010-01-01T07:01:26.590887+0700",
+    "age": 24,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1893901555420740,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 1065,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 797,
+    "bytes_toclient": 863,
+    "start": "2010-01-01T07:00:38.309886+0700",
+    "end": "2010-01-01T07:00:45.281159+0700",
+    "age": 7,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 398187374465957,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1085,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 16,
+    "pkts_toclient": 24,
+    "bytes_toserver": 1382,
+    "bytes_toclient": 29374,
+    "start": "2010-01-01T07:01:13.354854+0700",
+    "end": "2010-01-01T07:01:14.502128+0700",
+    "age": 1,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1011413186926342,
+  "event_type": "flow",
+  "src_ip": "10.0.3.2",
+  "src_port": 67,
+  "dest_ip": "10.0.3.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1180,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:00:59.628703+0700",
+    "end": "2010-01-01T07:00:59.631215+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 236777494569505,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 137,
+  "dest_ip": "10.0.2.255",
+  "dest_port": 137,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 16,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1760,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:00:32.055129+0700",
+    "end": "2010-01-01T07:00:40.371765+0700",
+    "age": 8,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 2228682520552368,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1117,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 17,
+    "pkts_toclient": 25,
+    "bytes_toserver": 1476,
+    "bytes_toclient": 29428,
+    "start": "2010-01-01T07:03:11.387833+0700",
+    "end": "2010-01-01T07:03:15.068040+0700",
+    "age": 4,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1924913459456102,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1106,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 15,
+    "pkts_toclient": 22,
+    "bytes_toserver": 4518,
+    "bytes_toclient": 6269,
+    "start": "2010-01-01T07:02:06.513714+0700",
+    "end": "2010-01-01T07:02:25.040501+0700",
+    "age": 19,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1f",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 232553973967770,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "app_proto": "dns",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 461,
+    "bytes_toclient": 903,
+    "start": "2010-01-01T07:01:12.054145+0700",
+    "end": "2010-01-01T07:01:26.912943+0700",
+    "age": 14,
+    "state": "established",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 732822251270169,
+  "event_type": "flow",
+  "src_ip": "10.0.4.2",
+  "src_port": 67,
+  "dest_ip": "10.0.4.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1180,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:01:54.760447+0700",
+    "end": "2010-01-01T07:01:54.762776+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 751807636468189,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1111,
+  "dest_ip": "64.236.114.1",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 16,
+    "pkts_toclient": 25,
+    "bytes_toserver": 1416,
+    "bytes_toclient": 29428,
+    "start": "2010-01-01T07:02:10.633795+0700",
+    "end": "2010-01-01T07:02:11.845359+0700",
+    "age": 1,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1898185603841260,
+  "event_type": "flow",
+  "src_ip": "10.0.2.15",
+  "src_port": 1066,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 5,
+    "bytes_toserver": 798,
+    "bytes_toclient": 863,
+    "start": "2010-01-01T07:00:38.310883+0700",
+    "end": "2010-01-01T07:00:45.281458+0700",
+    "age": 7,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1369271053356547,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1081,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 21,
+    "pkts_toclient": 29,
+    "bytes_toserver": 2507,
+    "bytes_toclient": 32370,
+    "start": "2010-01-01T07:01:08.777560+0700",
+    "end": "2010-01-01T07:01:25.202494+0700",
+    "age": 17,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1f",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1302185949106188,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 1082,
+  "dest_ip": "192.168.56.50",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 4,
+    "bytes_toserver": 650,
+    "bytes_toclient": 809,
+    "start": "2010-01-01T07:01:08.827476+0700",
+    "end": "2010-01-01T07:01:25.202558+0700",
+    "age": 17,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1f",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 739869600683794,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 138,
+  "dest_ip": "10.0.4.255",
+  "dest_port": 138,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 258,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:03:22.762088+0700",
+    "end": "2010-01-01T07:03:22.762088+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1674626638327008,
+  "event_type": "flow",
+  "src_ip": "10.0.2.2",
+  "src_port": 67,
+  "dest_ip": "10.0.2.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1180,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:00:29.652048+0700",
+    "end": "2010-01-01T07:00:29.655969+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 2205367086200533,
+  "event_type": "flow",
+  "src_ip": "10.0.5.2",
+  "src_port": 67,
+  "dest_ip": "10.0.5.15",
+  "dest_port": 68,
+  "proto": "UDP",
+  "app_proto": "dhcp",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 0,
+    "bytes_toserver": 1180,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:03:59.972229+0700",
+    "end": "2010-01-01T07:03:59.973544+0700",
+    "age": 0,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 2116793200202545,
+  "event_type": "flow",
+  "src_ip": "10.0.3.15",
+  "src_port": 138,
+  "dest_ip": "10.0.3.255",
+  "dest_port": 138,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 13,
+    "pkts_toclient": 0,
+    "bytes_toserver": 3072,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:01:11.296246+0700",
+    "end": "2010-01-01T07:01:28.145366+0700",
+    "age": 17,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 884098846938213,
+  "event_type": "flow",
+  "src_ip": "10.0.5.15",
+  "src_port": 138,
+  "dest_ip": "10.0.5.255",
+  "dest_port": 138,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 9,
+    "pkts_toclient": 0,
+    "bytes_toserver": 2115,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:04:11.205845+0700",
+    "end": "2010-01-01T07:04:20.218104+0700",
+    "age": 9,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1786586191359506,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1107,
+  "dest_ip": "192.168.56.51",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 15,
+    "pkts_toclient": 22,
+    "bytes_toserver": 5137,
+    "bytes_toclient": 3451,
+    "start": "2010-01-01T07:02:06.678116+0700",
+    "end": "2010-01-01T07:02:25.045594+0700",
+    "age": 19,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1f",
+    "tcp_flags_ts": "1e",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "rst": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1742331282322477,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1108,
+  "dest_ip": "192.168.56.52",
+  "dest_port": 80,
+  "proto": "TCP",
+  "app_proto": "http",
+  "flow": {
+    "pkts_toserver": 28,
+    "pkts_toclient": 38,
+    "bytes_toserver": 3183,
+    "bytes_toclient": 42550,
+    "start": "2010-01-01T07:02:06.864420+0700",
+    "end": "2010-01-01T07:03:06.864848+0700",
+    "age": 60,
+    "state": "closed",
+    "reason": "shutdown",
+    "alerted": false
+  },
+  "tcp": {
+    "tcp_flags": "1b",
+    "tcp_flags_ts": "1b",
+    "tcp_flags_tc": "1b",
+    "syn": true,
+    "fin": true,
+    "psh": true,
+    "ack": true,
+    "state": "closed",
+    "ts_max_regions": 1,
+    "tc_max_regions": 1
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 723943921809112,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 1029,
+  "dest_ip": "192.168.1.1",
+  "dest_port": 53,
+  "proto": "UDP",
+  "app_proto": "dns",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 2,
+    "bytes_toserver": 160,
+    "bytes_toclient": 271,
+    "start": "2010-01-01T07:02:10.627308+0700",
+    "end": "2010-01-01T07:02:16.439617+0700",
+    "age": 6,
+    "state": "established",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2010-01-01T07:00:29.651780+0700",
+  "flow_id": 1478086882688227,
+  "event_type": "flow",
+  "src_ip": "10.0.4.15",
+  "src_port": 137,
+  "dest_ip": "10.0.4.255",
+  "dest_port": 137,
+  "proto": "UDP",
+  "app_proto": "failed",
+  "flow": {
+    "pkts_toserver": 24,
+    "pkts_toclient": 0,
+    "bytes_toserver": 2640,
+    "bytes_toclient": 0,
+    "start": "2010-01-01T07:01:57.540751+0700",
+    "end": "2010-01-01T07:02:21.983565+0700",
+    "age": 24,
+    "state": "new",
+    "reason": "shutdown",
+    "alerted": false
+  }
+}
+{
+  "timestamp": "2023-07-09T12:21:08.949924+0700",
+  "event_type": "stats",
+  "stats": {
+    "uptime": 6,
+    "decoder": {
+      "pkts": 745,
+      "bytes": 293958,
+      "invalid": 0,
+      "ipv4": 725,
+      "ipv6": 0,
+      "ethernet": 745,
+      "arp": 20,
+      "unknown_ethertype": 0,
+      "chdlc": 0,
+      "raw": 0,
+      "null": 0,
+      "sll": 0,
+      "tcp": 553,
+      "udp": 156,
+      "sctp": 0,
+      "esp": 0,
+      "icmpv4": 8,
+      "icmpv6": 0,
+      "ppp": 0,
+      "pppoe": 0,
+      "geneve": 0,
+      "gre": 0,
+      "vlan": 0,
+      "vlan_qinq": 0,
+      "vlan_qinqinq": 0,
+      "vxlan": 0,
+      "vntag": 0,
+      "ieee8021ah": 0,
+      "teredo": 0,
+      "ipv4_in_ipv6": 0,
+      "ipv6_in_ipv6": 0,
+      "mpls": 0,
+      "avg_pkt_size": 394,
+      "max_pkt_size": 1514,
+      "max_mac_addrs_src": 0,
+      "max_mac_addrs_dst": 0,
+      "erspan": 0,
+      "nsh": 0,
+      "event": {
+        "ipv4": {
+          "pkt_too_small": 0,
+          "hlen_too_small": 0,
+          "iplen_smaller_than_hlen": 0,
+          "trunc_pkt": 0,
+          "opt_invalid": 0,
+          "opt_invalid_len": 0,
+          "opt_malformed": 0,
+          "opt_pad_required": 8,
+          "opt_eol_required": 0,
+          "opt_duplicate": 0,
+          "opt_unknown": 0,
+          "wrong_ip_version": 0,
+          "icmpv6": 0,
+          "frag_pkt_too_large": 0,
+          "frag_overlap": 0,
+          "frag_ignored": 0
+        },
+        "icmpv4": {
+          "pkt_too_small": 0,
+          "unknown_type": 0,
+          "unknown_code": 0,
+          "ipv4_trunc_pkt": 0,
+          "ipv4_unknown_ver": 0
+        },
+        "icmpv6": {
+          "unknown_type": 0,
+          "unknown_code": 0,
+          "pkt_too_small": 0,
+          "ipv6_unknown_version": 0,
+          "ipv6_trunc_pkt": 0,
+          "mld_message_with_invalid_hl": 0,
+          "unassigned_type": 0,
+          "experimentation_type": 0
+        },
+        "ipv6": {
+          "pkt_too_small": 0,
+          "trunc_pkt": 0,
+          "trunc_exthdr": 0,
+          "exthdr_dupl_fh": 0,
+          "exthdr_useless_fh": 0,
+          "exthdr_dupl_rh": 0,
+          "exthdr_dupl_hh": 0,
+          "exthdr_dupl_dh": 0,
+          "exthdr_dupl_ah": 0,
+          "exthdr_dupl_eh": 0,
+          "exthdr_invalid_optlen": 0,
+          "wrong_ip_version": 0,
+          "exthdr_ah_res_not_null": 0,
+          "hopopts_unknown_opt": 0,
+          "hopopts_only_padding": 0,
+          "dstopts_unknown_opt": 0,
+          "dstopts_only_padding": 0,
+          "rh_type_0": 0,
+          "zero_len_padn": 0,
+          "fh_non_zero_reserved_field": 0,
+          "data_after_none_header": 0,
+          "unknown_next_header": 0,
+          "icmpv4": 0,
+          "frag_pkt_too_large": 0,
+          "frag_overlap": 0,
+          "frag_invalid_length": 0,
+          "frag_ignored": 0,
+          "ipv4_in_ipv6_too_small": 0,
+          "ipv4_in_ipv6_wrong_version": 0,
+          "ipv6_in_ipv6_too_small": 0,
+          "ipv6_in_ipv6_wrong_version": 0
+        },
+        "tcp": {
+          "pkt_too_small": 0,
+          "hlen_too_small": 0,
+          "invalid_optlen": 0,
+          "opt_invalid_len": 0,
+          "opt_duplicate": 0
+        },
+        "udp": {
+          "pkt_too_small": 0,
+          "hlen_too_small": 0,
+          "hlen_invalid": 0,
+          "len_invalid": 0
+        },
+        "sll": {
+          "pkt_too_small": 0
+        },
+        "ethernet": {
+          "pkt_too_small": 0
+        },
+        "ppp": {
+          "pkt_too_small": 0,
+          "vju_pkt_too_small": 0,
+          "ip4_pkt_too_small": 0,
+          "ip6_pkt_too_small": 0,
+          "wrong_type": 0,
+          "unsup_proto": 0
+        },
+        "pppoe": {
+          "pkt_too_small": 0,
+          "wrong_code": 0,
+          "malformed_tags": 0
+        },
+        "gre": {
+          "pkt_too_small": 0,
+          "wrong_version": 0,
+          "version0_recur": 0,
+          "version0_flags": 0,
+          "version0_hdr_too_big": 0,
+          "version0_malformed_sre_hdr": 0,
+          "version1_chksum": 0,
+          "version1_route": 0,
+          "version1_ssr": 0,
+          "version1_recur": 0,
+          "version1_flags": 0,
+          "version1_no_key": 0,
+          "version1_wrong_protocol": 0,
+          "version1_malformed_sre_hdr": 0,
+          "version1_hdr_too_big": 0
+        },
+        "vlan": {
+          "header_too_small": 0,
+          "unknown_type": 0,
+          "too_many_layers": 0
+        },
+        "ieee8021ah": {
+          "header_too_small": 0
+        },
+        "vntag": {
+          "header_too_small": 0,
+          "unknown_type": 0
+        },
+        "ipraw": {
+          "invalid_ip_version": 0
+        },
+        "ltnull": {
+          "pkt_too_small": 0,
+          "unsupported_type": 0
+        },
+        "sctp": {
+          "pkt_too_small": 0
+        },
+        "esp": {
+          "pkt_too_small": 0
+        },
+        "mpls": {
+          "header_too_small": 0,
+          "pkt_too_small": 0,
+          "bad_label_router_alert": 0,
+          "bad_label_implicit_null": 0,
+          "bad_label_reserved": 0,
+          "unknown_payload_type": 0
+        },
+        "vxlan": {
+          "unknown_payload_type": 0
+        },
+        "geneve": {
+          "unknown_payload_type": 0
+        },
+        "erspan": {
+          "header_too_small": 0,
+          "unsupported_version": 0,
+          "too_many_vlan_layers": 0
+        },
+        "dce": {
+          "pkt_too_small": 0
+        },
+        "chdlc": {
+          "pkt_too_small": 0
+        },
+        "nsh": {
+          "header_too_small": 0,
+          "unsupported_version": 0,
+          "bad_header_length": 0,
+          "reserved_type": 0,
+          "unsupported_type": 0,
+          "unknown_payload": 0
+        }
+      },
+      "too_many_layers": 0
+    },
+    "tcp": {
+      "syn": 25,
+      "synack": 28,
+      "rst": 14,
+      "active_sessions": 0,
+      "sessions": 25,
+      "ssn_memcap_drop": 0,
+      "ssn_from_cache": 0,
+      "ssn_from_pool": 25,
+      "pseudo": 0,
+      "pseudo_failed": 0,
+      "invalid_checksum": 0,
+      "midstream_pickups": 0,
+      "pkt_on_wrong_thread": 0,
+      "ack_unseen_data": 0,
+      "segment_memcap_drop": 0,
+      "segment_from_cache": 0,
+      "segment_from_pool": 255,
+      "stream_depth_reached": 0,
+      "reassembly_gap": 0,
+      "overlap": 0,
+      "overlap_diff_data": 0,
+      "insert_data_normal_fail": 0,
+      "insert_data_overlap_fail": 0,
+      "memuse": 3637248,
+      "reassembly_memuse": 688128
+    },
+    "flow": {
+      "memcap": 0,
+      "total": 43,
+      "active": 0,
+      "tcp": 25,
+      "udp": 18,
+      "icmpv4": 0,
+      "icmpv6": 0,
+      "tcp_reuse": 0,
+      "get_used": 0,
+      "get_used_eval": 0,
+      "get_used_eval_reject": 0,
+      "get_used_eval_busy": 0,
+      "get_used_failed": 0,
+      "wrk": {
+        "spare_sync_avg": 100,
+        "spare_sync": 6,
+        "spare_sync_incomplete": 0,
+        "spare_sync_empty": 0,
+        "flows_evicted_needs_work": 12,
+        "flows_evicted_pkt_inject": 22,
+        "flows_evicted": 3,
+        "flows_injected": 12,
+        "flows_injected_max": 0
+      },
+      "end": {
+        "state": {
+          "new": 18,
+          "established": 3,
+          "closed": 22,
+          "local_bypassed": 0
+        },
+        "tcp_state": {
+          "none": 0,
+          "syn_sent": 0,
+          "syn_recv": 2,
+          "established": 0,
+          "fin_wait1": 0,
+          "fin_wait2": 1,
+          "time_wait": 0,
+          "last_ack": 0,
+          "close_wait": 0,
+          "closing": 0,
+          "closed": 22
+        },
+        "tcp_liberal": 0
+      },
+      "mgr": {
+        "full_hash_pass": 0,
+        "rows_per_sec": 6553,
+        "rows_maxlen": 1,
+        "flows_checked": 1,
+        "flows_notimeout": 1,
+        "flows_timeout": 0,
+        "flows_evicted": 0,
+        "flows_evicted_needs_work": 0
+      },
+      "spare": 9500,
+      "emerg_mode_entered": 0,
+      "emerg_mode_over": 0,
+      "recycler": {
+        "recycled": 28,
+        "queue_avg": 0,
+        "queue_max": 25
+      },
+      "memuse": 7154304
+    },
+    "defrag": {
+      "ipv4": {
+        "fragments": 0,
+        "reassembled": 0
+      },
+      "ipv6": {
+        "fragments": 0,
+        "reassembled": 0
+      },
+      "max_frag_hits": 0
+    },
+    "flow_bypassed": {
+      "local_pkts": 0,
+      "local_bytes": 0,
+      "local_capture_pkts": 0,
+      "local_capture_bytes": 0,
+      "closed": 0,
+      "pkts": 0,
+      "bytes": 0
+    },
+    "detect": {
+      "engines": [
+        {
+          "id": 0,
+          "last_reload": "2023-07-09T12:21:08.746393+0700",
+          "rules_loaded": 34422,
+          "rules_failed": 0
+        }
+      ],
+      "alert": 0,
+      "alert_queue_overflow": 0,
+      "alerts_suppressed": 0
+    },
+    "app_layer": {
+      "flow": {
+        "http": 23,
+        "ftp": 0,
+        "smtp": 0,
+        "tls": 0,
+        "ssh": 0,
+        "imap": 0,
+        "smb": 0,
+        "dcerpc_tcp": 0,
+        "dns_tcp": 0,
+        "nfs_tcp": 0,
+        "ntp": 0,
+        "ftp-data": 0,
+        "tftp": 0,
+        "ike": 0,
+        "krb5_tcp": 0,
+        "quic": 0,
+        "dhcp": 7,
+        "snmp": 0,
+        "sip": 0,
+        "rfb": 0,
+        "mqtt": 0,
+        "telnet": 0,
+        "rdp": 0,
+        "http2": 0,
+        "bittorrent-dht": 0,
+        "failed_tcp": 0,
+        "dcerpc_udp": 0,
+        "dns_udp": 2,
+        "nfs_udp": 0,
+        "krb5_udp": 0,
+        "failed_udp": 9
+      },
+      "tx": {
+        "http": 63,
+        "ftp": 0,
+        "smtp": 0,
+        "tls": 0,
+        "ssh": 0,
+        "imap": 0,
+        "smb": 0,
+        "dcerpc_tcp": 0,
+        "dns_tcp": 0,
+        "nfs_tcp": 0,
+        "ntp": 0,
+        "ftp-data": 0,
+        "tftp": 0,
+        "ike": 0,
+        "krb5_tcp": 0,
+        "quic": 0,
+        "dhcp": 16,
+        "snmp": 0,
+        "sip": 0,
+        "rfb": 0,
+        "mqtt": 0,
+        "telnet": 0,
+        "rdp": 0,
+        "http2": 0,
+        "bittorrent-dht": 0,
+        "dcerpc_udp": 0,
+        "dns_udp": 15,
+        "nfs_udp": 0,
+        "krb5_udp": 0
+      },
+      "error": {
+        "http": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "ftp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "smtp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "tls": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "ssh": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "imap": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "smb": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "dcerpc_tcp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "dns_tcp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "nfs_tcp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "ntp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "ftp-data": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "tftp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "ike": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "krb5_tcp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "quic": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "dhcp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "snmp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "sip": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "rfb": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "mqtt": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "telnet": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "rdp": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "http2": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "bittorrent-dht": {
+          "gap": 0,
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "failed_tcp": {
+          "gap": 0
+        },
+        "dcerpc_udp": {
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "dns_udp": {
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "nfs_udp": {
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        },
+        "krb5_udp": {
+          "alloc": 0,
+          "parser": 0,
+          "internal": 0
+        }
+      },
+      "expectations": 0
+    },
+    "http": {
+      "memuse": 0,
+      "memcap": 0
+    },
+    "ftp": {
+      "memuse": 0,
+      "memcap": 0
+    },
+    "file_store": {
+      "open_files": 0
+    }
+  }
+}
